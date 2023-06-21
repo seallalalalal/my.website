@@ -3,6 +3,7 @@ import NavBar from "./widgets/navBar";
 import About from "./widgets/about";
 import Section from "./widgets/section";
 import "./css/homepage.css";
+import Experience from "./widgets/sections/experience";
 export default function Homepage() {
   return (
     <>
@@ -10,6 +11,9 @@ export default function Homepage() {
       <div className="content">
         <Section title="About">
           <About />
+        </Section>
+        <Section title="Experience">
+          <Experience />
         </Section>
       </div>
     </>
