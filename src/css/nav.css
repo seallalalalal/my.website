@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.667);
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 15rem;
+  height: 100%;
+}
+.nav li {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  padding: 20px;
+}
+.nav .avatar {
+  padding: 20px;
+  border-radius: 50%;
+  max-width: 10rem;
+  max-height: 10rem;
+}
+.nav .name {
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+  padding-bottom: 20px;
+}

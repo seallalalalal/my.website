@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: antiquewhite;
+  padding-top: 50px;
+}
+
+.page_content {
+  margin-left: 240px;
+}
+.section {
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.482);
+}
+.section-title {
+  font-size: 30px;
+}
