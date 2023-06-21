@@ -8,5 +8,12 @@ const NAV = [
   { word: "Education", link: "#education" },
   { word: "Portfolio", link: "#about" },
 ];
-
-export { NAV };
+const EDUCATION = [
+  {
+    degree: "Bachelor of Computer Science",
+    school: "University of Taipei",
+    startTime: "2019, 9",
+    endTime: "2023, 6",
+  },
+];
+export { NAV, EDUCATION };
