@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/education.css";
+import "../../css/education.css";
 export default function Education(props) {
   return (
     <>
